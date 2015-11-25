@@ -167,7 +167,6 @@
 	text-align: left;
 	margin-top: 20px;
 }
-
 .post-meta-list {
     line-height: 1;
     margin-bottom: 15px;
@@ -177,6 +176,20 @@
     margin: 0;
     padding: 0;
     list-style: none;
+}
+.post-meta-item {
+	display: inline-block;
+	color: #b3b3b3;
+}
+.post-meta-info {
+	float: left;
+	width: 80%;
+	margin-top: 10px;
+}
+.post-social {
+	float: left;
+	width: 20%;
+	margin-top: -20px;
 }
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: 768px) {
